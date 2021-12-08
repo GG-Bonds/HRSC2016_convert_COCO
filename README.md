@@ -3,26 +3,26 @@
 ## HRSC2016-目录
 
 ```bash
-mmdetection
-├── mmdet
-├── tools
-├── configs
-├── data
-│   ├── coco
-│   │   ├── annotations
-│   │   ├── train2017
-│   │   ├── val2017
-│   │   ├── test2017
-│   ├── cityscapes
-│   │   ├── annotations
-│   │   ├── leftImg8bit
-│   │   │   ├── train
-│   │   │   ├── val
-│   │   ├── gtFine
-│   │   │   ├── train
-│   │   │   ├── val
-│   ├── VOCdevkit
-│   │   ├── VOC2007
-│   │   ├── VOC2012
+$HRSC2016
+├── FullDataSet
+│   ├── AllImages
+│   ├── Annotations
+│   ├── LandMask
+│   ├── Segmentations
+├── Train
+│   ├── AllImages
+│   ├── Annotations
+│   ├── LandMask
+│   ├── Segmentations
+├── Test
+│   ├── AllImages
+│   ├── Annotations
+│   ├── LandMask
+│   ├── Segmentations
+├── ImageSets
+│   ├── train.txt
+│   ├── test.txt
+│   ├── trainval.txt
+│   ├── val.txt
 
 ```
